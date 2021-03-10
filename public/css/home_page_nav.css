@@ -1,0 +1,381 @@
+#barbarian {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: barbarian;
+  animation-duration: 10s;
+}
+
+@keyframes barbarian {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#bard {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: bard;
+  animation-delay: 10s;
+  animation-duration: 10s;
+}
+
+@keyframes bard {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#cleric {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: cleric;
+  animation-delay: 20s;
+  animation-duration: 10s;
+}
+
+@keyframes cleric {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#druid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: druid;
+  animation-delay: 30s;
+  animation-duration: 10s;
+}
+
+@keyframes druid {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#fighter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: fighter;
+  animation-delay: 40s;
+  animation-duration: 10s;
+}
+
+@keyframes fighter {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#monk {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: monk;
+  animation-delay: 50s;
+  animation-duration: 10s;
+}
+
+@keyframes monk {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#paladin {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: paladin;
+  animation-delay: 60s;
+  animation-duration: 10s;
+}
+
+@keyframes paladin {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#ranger {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: ranger;
+  animation-delay: 70s;
+  animation-duration: 10s;
+}
+
+@keyframes ranger {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#rogue {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: rogue;
+  animation-delay: 80s;
+  animation-duration: 10s;
+}
+
+@keyframes rogue {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#sorcerer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: sorcerer;
+  animation-delay: 90s;
+  animation-duration: 10s;
+}
+
+@keyframes sorcerer {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#warlock {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: warlock;
+  animation-delay: 100s;
+  animation-duration: 10s;
+}
+
+@keyframes warlock {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#wizard {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  animation-name: wizard;
+  animation-delay: 110s;
+  animation-duration: 10s;
+}
+
+@keyframes wizard {
+  0% {
+    background-color: #efefef;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #efefef;
+  }
+}
+
+#character_card {
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+#character_nav {
+  /* display: inline-block; */
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #efefef;
+  width: 7rem;
+  float: left;
+}
+
+.character_type {
+  margin: 0.5rem;
+  text-align: center;
+  color: black;
+}

@@ -1,0 +1,53 @@
+/* Slogan animation */
+.logo{
+    position: relative;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+  
+  @keyframes logo {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.2;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.7;}
+    100% {opacity: 1};
+  }
+
+  /* Button animation */
+  .button{
+      position: relative;
+      animation-name: button;
+      animation-duration: 2s;
+      animation-delay: 2.5s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+  }
+
+  @keyframes button {
+    0%   {opacity: .0;}
+    25%  {opacity: .2;}
+    50%  {opacity: .5;}
+    75%  {opacity: .7;}
+    100% {opacity: 1};
+  }
+
+  /* Eyes animation */
+  .eyes{
+      position: relative;
+      animation: eyes;
+      animation-duration: 2s;
+      animation-delay: 5s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+  }
+
+  @keyframes eyes {
+    0%   {opacity: .0;}
+    25%  {opacity: .2;}
+    50%  {opacity: .5;}
+    75%  {opacity: .7;}
+    100% {opacity: 1};
+  }

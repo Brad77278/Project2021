@@ -1,0 +1,9 @@
+.character_name{
+    padding-left: 0rem;
+    font-family: 'Red Rose', cursive;
+    color: black;
+}
+
+.character_card{
+    border-radius: 25px;
+}

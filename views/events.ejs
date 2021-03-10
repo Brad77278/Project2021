@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!--  -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Team Victory</title>
+  </head>
+
+  <body onload="populateTable()">
+    <% var length = newEvent.length; %> <% var event = newEvent; %>
+
+    <script>
+      function populateTable() {
+        var length = <%= length %>;
+
+        var events = <%- JSON.stringify(newEvent) %>;
+
+        for (x in events) {
+          $('#event_table').append('<tr><td><a id="' + x + '" class="table_links" href="/views/archive/' + x + '">' +
+            events[x].title + '</a></td><td>' +
+            events[x].date + '</td></tr>');
+        }
+      }
+    </script>
+
+    <div
+      class="jumbotron jumbotron-fluid mb-0 pb-0 border-bottom border-danger"id="header">
+      <div class="container">
+        <a class="logo" href="/views/home"><img
+            src="https://i.imgur.com/WqY56yY.png"
+            alt="Team Logo"
+            width="75px"
+            height="40px"/></a>
+
+        <h3 id="team_name">Team Victory</h3>
+        <!-- <a href="/views/auth/login" class="sign_in">
+          <h6>Sign In</h6>
+        </a>
+        <a href="#" class="register">
+          <h6>Register</h6>
+        </a> -->
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid mt-0 pt-1 pb-1" id="links">
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="/views/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/views/characters">Characters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/views/campaign">Campaign</a>
+          </li>
+          <li class="nav-item active">
+            <a href="/views/events" class="nav-link">Events</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <form action="/views/events" method="POST">
+        <div class="container d-flex justify-content-end mr-5">
+          <button type="submit" class="btn btn-dark">Create New Event</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container mt-5">
+      <div class="jumbotron jumbotron-fluid backsplash pt-0 pb-0">
+        <div id="table-wrapper">
+          <div id="table-scroll">
+            <table class="table table-striped table-hover" id="event_table">
+              <thead>
+                <th class="table_title">Events</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="col">Title</th>
+                  <th scope="col">Date</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- <script src="../scripts/dates.js"></script> -->
+    <script src="../scripts/newEvent.js"></script>
+    <!-- <script src="/database.js"></script> -->
+    <!--  -->
+    <script
+      src="https://unpkg.com/react@16/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
